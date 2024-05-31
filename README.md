@@ -1,12 +1,24 @@
 # ollama-llama3-cpu
 
-### Step to run 
+```
+ollama pull < model_name>
+```
 
+```
+ollama run <model_name>
+```
 
-'''
-step 1: install ollama in cpu machine
+```
+ollama create <ANY_AGENT_NAME> -f modelfile
+```
 
-step 2: "ollama start <Any agent Name > -f modelfile"
+```
+ollama run <ANY_AGENT_NAME>
+```
 
-step 3: ollama <run agent name>
-'''
+```
+offical repo of ollama: https://github.com/ollama/ollama
+```
+```
+ollama webui repo:https://github.com/open-webui/open-webui
+```
